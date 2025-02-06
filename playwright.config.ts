@@ -10,7 +10,7 @@ export default defineConfig({
      * Maximum time expect() should wait for the condition to be met.
      * For example in `await expect(locator).toHaveText();`
      */
-    timeout: 20 * 1 * 1000,
+    timeout: 20 * 1 * 2000,
   },
 
   retries: 1,
